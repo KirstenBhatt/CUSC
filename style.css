@@ -65,14 +65,15 @@ header {
    display:flex;
    flex-direction: column;
    align-items: center;
-   justify-content: space-evenly;
+   justify-content: space-between;
    height: 50vh;
+   overflow: hidden;
 }
 
 .container {
    display: flex;
    align-items: center;
-   justify-content: space-even;
+   justify-content: space-between;
    width: 100vh;
 
 }
@@ -86,7 +87,7 @@ img {
 .left {
    display: flex;
    flex-direction: column;
-   margin-right:65;
+   margin-right: 65px;
 }
 
 button {
@@ -98,3 +99,34 @@ button {
    border-radius: 5px;
    font-weight: bold;
 } 
+
+/* Five Shared Branching Locations */
+
+.imgfive {
+   width: 100px;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.title {
+   font-size: 36px;
+   font-weight: 900;
+   margin: 32px;
+}
+
+.locations {
+   display: flex;
+   justify-content: space-between;;
+  
+}
+
+body {
+   text-align: center;
+   overflow: hidden;
+}
+/*
+.OKC .MWC .Yukon .Moore .Norman {
+   max-width: 200px;
+}
