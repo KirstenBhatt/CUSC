@@ -95,7 +95,6 @@ img {
 }
 
 button {
-   align-self: flex-start;
    background-color: #3882F6;
    color: white;
    padding: 7px 14px;
@@ -124,15 +123,15 @@ button {
 .locations {
    display: flex;
    justify-content: space-between;
-   align-itemss: center;
    font-weight: bold;
    font-size: 18px;
-   padding: 32px;
+   padding: 40px;
+   margin: 0 50px 0 50px;
+   overflow: hidden;
 }
 
 body {
    text-align: center;
-   overflow: hidden;
 }
 
 .OKC .MWC .Yukon .Moore .Norman {
@@ -155,4 +154,51 @@ main {
 .text{
    text-align: center;
    margin: auto;
+}
+
+ /* Service Box */
+
+.services {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 18px;
+   font-weight: bolder;
+   margin: 15px;
+}
+ 
+.CU {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 22px;
+   font-weight: bolder;
+   margin: 10px;
+}
+
+/*call to action*/
+
+.action {
+   background-color: rgb(156, 156, 156);
+   padding-top: 25px;
+   margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 20px;
+}
+
+.ATM {
+   margin: auto;
+   width: 25%;
+}
+
+/*footer*/
+
+footer {
+   background-color: #1F2937;
+   color:white;
+   font-size: 10px;
+   padding: 10px 0 10px 0;
 }
